@@ -20,8 +20,18 @@
     /* Very Light Deep Purple */
 
     --correct--answer: #4caf50;
+    --info: #c812ff;
+    --yellow: #ffeb3b;
 }
 
 .correct {
     color: var(--correct--answer);
+}
+
+.info {
+    color: var(--info);
+}
+
+.yellow {
+    color: var(--yellow);
 }
