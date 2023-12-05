@@ -1,8 +1,14 @@
 site_name: Gépi látás
 site_url: https://cv.hanu.dev
 
+nav:
+ - CV Cuccok: index.md
+ - "Második ZH": zh2.md
+
 theme:
   name: material
+  font: 
+    text: Roboto Mono
 
   logo: assets/kitten.png
   palette: 
@@ -13,7 +19,7 @@ theme:
       toggle:
         icon: fontawesome/regular/face-rolling-eyes
         name: Hív a sötétség
-      primary: light green
+      primary: white
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -21,16 +27,15 @@ theme:
       toggle:
         icon: fontawesome/solid/face-rolling-eyes
         name: Fura vagyok
-      primary: deep orange
-
-nav:
- - Home: index.md
- - "Második ZH": zh2.md
-
+      primary: custom
 
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_javascript:
   - javascripts/katex.js
@@ -40,4 +45,5 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 extra_css:
+  - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css

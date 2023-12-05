@@ -1,0 +1,27 @@
+:root {
+    --md-primary-fg-color: #2f9c95;
+    /* Dark Purple */
+    --md-primary-fg-color--light: #40c9a2;
+    /* Light Purple */
+    --md-primary-fg-color--dark: #206652;
+    /* Darker Purple */
+    --md-primary-bg-color--light: #e5f9e0;
+    /* White */
+    --md-primary-bg-color--dark: #292D27;
+
+
+    --md-accent-fg-color: #673ab7;
+    /* Deep Purple */
+    --md-accent-fg-color--transparent: #673ab7;
+    /* Deep Purple (with transparency) */
+    --md-accent-bg-color: #b39ddb;
+    /* Light Deep Purple */
+    --md-accent-bg-color--light: #ede7f6;
+    /* Very Light Deep Purple */
+
+    --correct--answer: #4caf50;
+}
+
+.correct {
+    color: var(--correct--answer);
+}
