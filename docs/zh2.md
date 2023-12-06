@@ -74,7 +74,7 @@ Igaz vagy hamis?
 | A morfológiai zárás (closing = dilation + erosion) múvelet során a világos szinú objektumok növekedése kizárt, csak csökkenni tudnak. | Igaz | <span class="correct">Hamis</span> |
 | A medián szűrőt többek között hisztogram kiegyenlítésére is használjuk. | Igaz | <span class="correct">Hamis</span> |
 | Ha vágást (thresholding) alkalmazunk egy képre, akkor eredményként több kisebb képet kapunk. | Igaz | <span class="correct">Hamis</span> |
-| A blackhat transzformáció világos színű hernyókat tud megkeresni a képen, ha a háttér sötétebb a hernyónál. | <span class="correct">Igaz</span> | Hamis |
+| A blackhat transzformáció világos színű hernyókat tud megkeresni a képen, ha a háttér sötétebb a hernyónál. | Igaz | <span class="correct">Hamis</span> |
 | A Gauss-szűrő maszkjában előfordulnak pozitív számok. | <span class="correct">Igaz</span> | Hamis |
 | A histogram kiegyenlítő módszerek közül egyik sem használ struktúráló elemet. | <span class="correct">Igaz</span> | Hamis |
 | A Gauss-féle szűrővel képeket szoktunk élesíteni. | Igaz | <span class="correct">Hamis</span> |
