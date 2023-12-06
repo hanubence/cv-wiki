@@ -51,3 +51,5 @@ extra_css:
 plugins:
   - search
   - print-site
+
+repo_url: https://github.com/hanubence/cv-wiki
